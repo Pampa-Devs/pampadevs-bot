@@ -1,0 +1,21 @@
+{
+  "name": "pampadevs-bot",
+  "version": "1.0.0",
+  "description": "PampaDevs open-source bot for Discord.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix src/**/*.js",
+    "dev": "nodemon src/index.js",
+    "start": "NODE_ENV=production node src/index.js"
+  },
+  "author": "Felipe de Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "enmap": "^5.2.9",
+    "eslint": "^7.2.0",
+    "fs-extra": "^9.0.1",
+    "lodash": "^4.17.15"
+  }
+}

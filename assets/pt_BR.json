@@ -1,0 +1,16 @@
+{
+	"announce": {
+		"fail": {
+			"no_permission": {
+				"description": "``❌`` You do not have permission to use this command. ``[MANAGE_GUILD]``"
+			}
+		}
+	},
+	"error_command": {
+		"description": "``❌`` Something is not working D:",
+		"fields": [
+			{ "name": "**Command:**", "inline": true },
+			{ "name": "**Message:**", "inline": true }
+		]
+	}
+}
