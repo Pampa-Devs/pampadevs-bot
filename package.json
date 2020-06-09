@@ -8,6 +8,14 @@
     "dev": "nodemon src/index.js",
     "start": "NODE_ENV=production node src/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pampa-Devs/pampadevs-bot"
+  },
+  "keywords": [
+    "discord.js",
+    "pampadevs"
+  ],
   "author": "Felipe de Almeida",
   "license": "ISC",
   "dependencies": {

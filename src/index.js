@@ -38,7 +38,6 @@ const init = async () => {
     });
 
     client.on('error', err => console.error(err));
-    console.log(process.env.AUTH_TOKEN);
     client.login(process.env.AUTH_TOKEN);
 };
 

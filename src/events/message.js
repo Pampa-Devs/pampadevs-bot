@@ -76,3 +76,4 @@ module.exports = async (client, message) => {
         runCommand(client, message),
     ]);
 };
+
